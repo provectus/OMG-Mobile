@@ -29,7 +29,7 @@ esac
 done
 
 # paths
-
+NDK_ROOT="/Users/vyakimenko/Desktop/android-ndk-r9"
 if [ -z "${NDK_ROOT+aaa}" ];then
 echo "please define NDK_ROOT"
 exit 1
@@ -51,7 +51,7 @@ fi
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 # ... use paths relative to current directory
-COCOS2DX_ROOT="$DIR/../../.."
+COCOS2DX_ROOT="$DIR/.."
 APP_ROOT="$DIR/.."
 APP_ANDROID_ROOT="$DIR"
 
