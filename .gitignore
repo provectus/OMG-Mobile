@@ -2,68 +2,54 @@
 *.slo
 *.lo
 *.o
+*.obj
 
 # Compiled Dynamic libraries
 *.so
 *.dylib
+*.dll
 
 # Compiled Static libraries
 *.lai
 *.la
 *.a
+*.lib
+
+# Logs
+*.log
+*.tlog
+
+# Debug Files
+*.pdb
+
+# Binaries
+*.exe
+
+# Etc Shit
+*.ilk
+*.lastbuildstate
+*.idb
+*.sdf
+*.opensdf
+*.unsuccessfulbuild
+*.suo
 
 CocosDenshion/.DS_Store
-
 cocos2dx/platform/.DS_Store
-
 cocos2dx/platform/android/.DS_Store
-
 *.class
-
 *.jar
-
-cocos2dx/platform/android/java/gen/org/cocos2dx/lib/BuildConfig.java
-
-cocos2dx/platform/android/java/.DS_Store
-
-cocos2dx/platform/android/java/bin/AndroidManifest.xml
-
+cocos2dx/platform/android/java/*
 extensions/.DS_Store
-
-proj.android/obj/local/armeabi/objs/cocos_extension_static/spine/CCSkeletonAnimation.o.d
-
-proj.android/obj/local/armeabi/objs/cocos_extension_static/spine/RegionAttachment.o.d
-
-proj.android/obj/local/armeabi/objs/cocos_extension_static/spine/BoneData.o.d
-
-proj.android/obj/local/armeabi/objs/cocos_extension_static/spine/AttachmentLoader.o.d
-
-proj.android/obj/local/armeabi/objs/cocos_extension_static/spine/Atlas.o.d
-
-proj.android/obj/local/armeabi/objs/cocos_extension_static/spine/AtlasAttachmentLoader.o.d
-
-proj.android/obj/local/armeabi/objs/cocos_extension_static/spine/SkeletonJson.o.d
-
-proj.android/obj/local/armeabi/objs/cocos_extension_static/spine/AnimationStateData.o.d
-
-proj.android/obj/local/armeabi/objs/cocos_extension_static/physics_nodes/CCPhysicsSprite.o.d
-
-proj.android/obj/local/armeabi/objs/cocos_extension_static/spine/AnimationState.o.d
-
-proj.android/obj/local/armeabi/objs/cocos_extension_static/network/HttpClient.o.d
-
-proj.android/obj/local/armeabi/objs/cocos_extension_static/LocalStorage/LocalStorageAndroid.o.d
-
-proj.android/obj/local/armeabi/objs/cocos_extension_static/network/SocketIO.o.d
-
-proj.android/obj/local/armeabi/objs/cocos_extension_static/network/WebSocket.o.d
-
-proj.android/obj/local/armeabi/objs/cocos_extension_static/spine/Json.o.d
-
-external/Box2D/Common/.DS_Store
-
+proj.android/obj/*
+external/Box2D/*
 proj.android/.settings/org.eclipse.cdt.core.prefs
-
-proj.android/assets/Games/.DS_Store
-
+proj.android/assets/*
 external/.DS_Store
+proj.android/bin/*
+proj.android/gen/*
+proj.android/jni/.DS_Store
+proj.android/lint.xml
+external/libwebsockets/.DS_Store
+proj.android/.settings/org.eclipse.cdt.codan.core.prefs
+external/libwebsockets/android/.DS_Store
