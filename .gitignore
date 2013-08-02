@@ -34,4 +34,22 @@
 *.unsuccessfulbuild
 *.suo
 
-
+CocosDenshion/.DS_Store
+cocos2dx/platform/.DS_Store
+cocos2dx/platform/android/.DS_Store
+*.class
+*.jar
+cocos2dx/platform/android/java/*
+extensions/.DS_Store
+proj.android/obj/*
+external/Box2D/*
+proj.android/.settings/org.eclipse.cdt.core.prefs
+proj.android/assets/*
+external/.DS_Store
+proj.android/bin/*
+proj.android/gen/*
+proj.android/jni/.DS_Store
+proj.android/lint.xml
+external/libwebsockets/.DS_Store
+proj.android/.settings/org.eclipse.cdt.codan.core.prefs
+external/libwebsockets/android/.DS_Store
